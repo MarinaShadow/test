@@ -1,0 +1,203 @@
+.b-footer-bottom-helper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.b-header__vp {
+    min-height: 0;
+    border-top: 4px solid #4960d2;
+}
+
+.b-hometext {
+    background-color: #FFF;
+    padding: 40px;
+}
+.bg{
+    position: relative;
+}
+.rectangles-1{
+    position: absolute;
+    display: block;
+}
+.rectangles-1{
+    top: 190px;
+    right: -35px;
+    width: 35px;
+    height: 208px;
+}
+.b-dashboard {
+    margin-top: 20px;
+}
+.b-dashboard__ico {
+    float: left;
+    margin-right: 20px;
+    color: #8c8c8c;
+    font-weight: 200;
+}
+.b-dashboard__info {
+    overflow: hidden;
+    line-height: 1;
+    color: #696969;
+    font-weight: 200;
+}
+.b-dashboard__info strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.b-dashboard__item {
+	background-color: #FFF;
+}
+.b-step__1 {
+    background-image: url(../img/step-1.png);
+}
+.b-step__1, .b-step__2, .b-step__3 {
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    padding: 55px 0 0 0;
+}
+.b-hometext__vp {
+    background-color: #FFF;
+    margin-top: -15px;
+    padding: 40px;
+}
+.b-hometext__title {
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 1;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}
+.b-step__2 {
+    background-image: url(../img/step-2.png);
+}
+.b-step__3 {
+    background-image: url(../img/step-3.png);
+}
+.b-footer__section {
+    padding-top: 3em;
+    font-size: 0.9em;
+}
+.b-footer__section img {
+    float: left;
+    margin-right: 20px;
+}
+.b-footer__item {
+    margin-bottom: 10px;
+}
+.b-footer {
+    height: 154px;
+    background: -moz-linear-gradient(top, rgba(177,181,199,0) 0%, rgba(177,181,199,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(177,181,199,0) 0%,rgba(177,181,199,1) 100%);
+    background: linear-gradient(to bottom, rgba(177,181,199,0) 0%,rgba(177,181,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b1b5c7', endColorstr='#b1b5c7',GradientType=0 );
+    border-bottom: 4px solid #fff200;
+    color: #333;
+}
+.b-main__vp {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+.b-footer__inner {
+    height: 150px;
+    padding-bottom: 0;
+}
+@media(max-width:768px){
+    .b-hometext {
+        padding: 20px;
+    }
+	.b-hometext {
+        padding: 10px;
+    }
+}
+@media(max-width:1344px){
+    .b-hometext__bg {
+        background: linear-gradient(to top, #F4F8FF 690.55px, #FFF 0%);
+    }
+}
+@media(max-width:1280px){
+    .b-hometext__bg {
+        background: linear-gradient(to top, #F4F8FF 788.55px, #FFF 0%);
+    }
+}
+@media(max-width:1200px){
+    .b-hometext__bg {
+        background: linear-gradient(to top, #F4F8FF 809.55px, #FFF 0%);
+    }
+}
+@media(max-width:1024px){
+    .b-hometext__bg {
+        background: linear-gradient(to top, #F4F8FF 950.55px, #FFF 0%);
+    }
+}
+@media(max-width:960px){
+    .b-hometext__bg {
+        background: linear-gradient(to top, #F4F8FF 1163.55px, #FFF 0%);
+    }
+	.b-footer-bottom-helper{
+		min-height: auto;
+		overflow: auto;
+	}
+	.b-footer-bottom-helper-2{
+		padding-bottom: 0;
+	}
+	.b-footer{
+		height: auto;
+		margin-top: 0;
+	}
+	.b-footer__inner{
+		height: auto;
+	}
+	.b-sidebar{
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:800px){
+    .b-hometext__bg {
+        background: linear-gradient(to top, #F4F8FF 100%, #FFF 0%);
+        padding: 40px 0;
+    }
+}
+@media(max-width:768px){
+	.b-footer__line-center, .b-footer__line-right, .b-footer__line-left{
+		text-align: left;
+		margin-top: 20px;
+	}
+}
+
+@media(max-width:560px){
+    .b-dollar{
+        padding: 12px 0px 12px 10px;
+    }
+	.b-dollar strong{
+        margin-left: 10px;
+    }
+	.b-dollar span{
+        margin-left: 10px;
+        padding: 15px;
+    }
+}
+@media(max-width:320px){
+    .t-self .wrap{
+        width: 22%;
+    }
+	.t_wrap span{
+        font-size: 20px;
+    }
+	.t_wrap i{
+        font-size: 10px;
+    }
+	.t-self .wrap.dot{
+        width: 1%;
+        font-size: 20px;
+    }
+	.b-sidebar__section {
+        padding: 20px 10px;
+    }
+}
